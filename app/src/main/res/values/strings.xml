@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">desafioMobilidade</string>
+    <string name="apelido">Apelido:</string>
+    <string name="digite_seu_apelido">Digite seu apelido</string>
+    <string name="salvar">Salvar</string>
+    <string name="ver_dados_da_api">Ver dados da API</string>
+    <string name="t_tulo">Título</string>
+    <string name="pat">PAT:</string>
+    <string name="_23">23</string>
+    <string name="voltar">Voltar</string>
+    <string name="ver_lista">Ver lista</string>
+    <string name="tirar_foto">Tirar foto</string>
+</resources>
