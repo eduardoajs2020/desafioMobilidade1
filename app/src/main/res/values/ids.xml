@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="tv_apelido" type="id" />
-    <item name="image_view" type="id">1</item>
+    <item name="image_view" type="id" />
+    <item name="imageView" type="id" />
 </resources>

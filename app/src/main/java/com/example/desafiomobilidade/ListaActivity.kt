@@ -40,7 +40,7 @@ class TuplaAdapter(private val context: Context, private val tuplas: List<Tupla>
 
 data class Tupla(val apelido: String, val pat: Any)
 
-class MainActivity1: AppCompatActivity() {
+class MainActivity1 : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
 
@@ -49,6 +49,6 @@ class MainActivity1: AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        }
+    }
 
 }

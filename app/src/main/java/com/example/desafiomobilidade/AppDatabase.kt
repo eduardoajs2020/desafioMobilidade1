@@ -10,7 +10,6 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun tuplaDao(): Any
 
 
-
     companion object {
         @Volatile
         private var INSTANCE: AppDatabase? = null

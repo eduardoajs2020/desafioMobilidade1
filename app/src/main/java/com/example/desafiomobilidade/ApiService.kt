@@ -30,9 +30,7 @@ annotation class PATCH(val value: String)
 
 annotation class PUT(val value: String)
 
-class Post {
-
-}
+class Post
 
 annotation class Body
 

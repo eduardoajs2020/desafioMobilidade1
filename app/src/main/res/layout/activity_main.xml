@@ -15,6 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/apelido" />
+
         <TextView
             android:id="@+id/tv_pat"
             android:layout_width="wrap_content"
@@ -43,21 +45,23 @@
             android:id="@+id/et_apelido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="20"
             android:hint="@string/digite_seu_apelido"
             android:inputType="text"
-            android:maxLength="20"
-            android:autofillHints="20" />
+            android:maxLength="20" />
 
         <Button
             android:id="@+id/btn_salvar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/salvar" />
+
         <Button
             android:id="@+id/btn_api"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ver_dados_da_api" />
+
         <Button
             android:id="@+id/btn_lista"
             android:layout_width="wrap_content"
@@ -69,12 +73,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/voltar" />
+
         <Button
             android:id="@+id/btn_camera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tirar_foto" />
-
 
 
     </LinearLayout>

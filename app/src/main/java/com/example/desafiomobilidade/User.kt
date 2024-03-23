@@ -20,14 +20,15 @@ class MainActivity2 : AppCompatActivity() {
 
     private val CAMERA_REQUEST_CODE = 123
 
-    private val cameraLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-        if (result.resultCode == RESULT_OK) {
-            val data: Intent? = result.data
-            val bitmap = data?.extras?.getString("data") as Bitmap
-            // Exiba a foto capturada
-            imageView.setImageBitmap(bitmap)
+    private val cameraLauncher =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            if (result.resultCode == RESULT_OK) {
+                val data: Intent? = result.data
+                val bitmap = data?.extras?.getString("data") as Bitmap
+                // Exiba a foto capturada
+                imageView.setImageBitmap(bitmap)
+            }
         }
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
